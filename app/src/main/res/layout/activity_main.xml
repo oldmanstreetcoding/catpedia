@@ -44,7 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/welcome_subtext"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textColor="@color/black"
                     android:layout_marginTop="5pt"/>
 
@@ -66,192 +66,198 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:background="@color/colorAccent"
-            android:padding="5pt">
+            android:orientation="vertical"
+            android:background="@drawable/borderfill">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:orientation="horizontal"
+                android:padding="5pt">
 
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:src="@drawable/fisik"
-                    android:padding="3dp"
-                    android:layout_gravity="center"/>
-
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/fisik"
-                    android:textColor="@color/black"
-                    android:gravity="center"/>
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:src="@drawable/fisik"
+                        android:padding="3dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fisik"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:padding="3dp"
+                        android:src="@drawable/karakter"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/karakter"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:padding="3dp"
+                        android:src="@drawable/sejarah"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sejarah"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:padding="3dp"
+                        android:src="@drawable/kesehatan"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kesehatan"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+                </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:orientation="horizontal"
+                android:padding="5pt">
 
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:padding="3dp"
-                    android:src="@drawable/karakter"
-                    android:layout_gravity="center"/>
-
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/karakter"
-                    android:textColor="@color/black"
-                    android:gravity="center"/>
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
-            </LinearLayout>
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:src="@drawable/usia"
+                        android:padding="3dp"
+                        android:layout_gravity="center"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/usia"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
 
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:padding="3dp"
-                    android:src="@drawable/sejarah"
-                    android:layout_gravity="center"/>
+                </LinearLayout>
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/sejarah"
-                    android:textColor="@color/black"
-                    android:gravity="center"/>
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
-            </LinearLayout>
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:padding="3dp"
+                        android:src="@drawable/aktifitas"
+                        android:layout_gravity="center"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/aktivitas"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
 
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:padding="3dp"
-                    android:src="@drawable/kesehatan"
-                    android:layout_gravity="center"/>
+                </LinearLayout>
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/kesehatan"
-                    android:textColor="@color/black"
-                    android:gravity="center"/>
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
-            </LinearLayout>
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:padding="3dp"
+                        android:src="@drawable/fakta"
+                        android:layout_gravity="center"/>
 
-        </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fakta"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:background="@color/colorAccent"
-            android:padding="5pt">
+                </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_weight="1">
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:src="@drawable/usia"
-                    android:padding="3dp"
-                    android:layout_gravity="center"/>
-
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/usia"
-                    android:textColor="@color/black"
-                    android:gravity="center"/>
+                    android:orientation="vertical"
+                    android:layout_weight="1">
 
-            </LinearLayout>
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:padding="3dp"
+                        android:src="@drawable/makanan"
+                        android:layout_gravity="center"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/makanan"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
 
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:padding="3dp"
-                    android:src="@drawable/aktifitas"
-                    android:layout_gravity="center"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/aktivitas"
-                    android:textColor="@color/black"
-                    android:gravity="center"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_weight="1">
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:padding="3dp"
-                    android:src="@drawable/fakta"
-                    android:layout_gravity="center"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/fakta"
-                    android:textColor="@color/black"
-                    android:gravity="center"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_weight="1">
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:padding="3dp"
-                    android:src="@drawable/makanan"
-                    android:layout_gravity="center"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/makanan"
-                    android:textColor="@color/black"
-                    android:gravity="center"/>
+                </LinearLayout>
 
             </LinearLayout>
 
