@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowCatActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5pt"
+                android:padding="5pt"
+                android:background="@drawable/borderfill">
+
+                <TextView
+                    style="@style/TextContent.Title"
+                    android:id="@+id/tv_cat_name"
+                    android:text="@string/cat_name"
+                    android:gravity="center" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/tv_cat_photo"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="5pt"
+                    tools:src="@android:color/darker_gray"/>
+
+                <TextView
+                    style="@style/TextContent"
+                    android:id="@+id/tv_cat_detil"
+                    android:text="@string/cats_detail"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextContent"
+                android:id="@+id/tv_cat_history"
+                android:text="@string/cat_history"
+                android:layout_marginHorizontal="5pt"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="5pt"
+                android:layout_marginBottom="5pt"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

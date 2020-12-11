@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CatPedia</string>
+    <string name="welcome_text">Hi, Cat Lover ^_^</string>
+    <string name="cats_name">Nama Kucing</string>
+    <string name="cats_detail">Deskripsi</string>
+    <string name="cat_gallery">- Cat Gallery -</string>
+    <string name="welcome_cat_lover">Welcome Cat Lover !</string>
+    <string name="welcome_subtext">Yuk Mari Belajar Bersama Mengenalkan Jenis - Jenis Kucing Yang Tersebar Di Penjuru Dunia Kepada Anak Kesayangan Kita, Sehingga Mereka Lebih Peduli Lagi Dengan Lingkungan Sekitarnya.</string>
+    <string name="info_title">Info Seputar Dunia Kucing</string>
+    <string name="fisik">Fisik</string>
+    <string name="karakter">Karakter</string>
+    <string name="sejarah">Sejarah</string>
+    <string name="kesehatan">Kesehatan</string>
+    <string name="usia">Usia</string>
+    <string name="aktivitas">Aktivitas</string>
+    <string name="fakta">Fakta</string>
+    <string name="makanan">Makanan</string>
+    <string name="cat_gallery_btn_text">go to cat gallery</string>
+    <string name="my_account">My Account</string>
+    <string name="my_account_title">- My Account -</string>
+    <string name="ahmad_furqan">Ahmad Furqan</string>
+    <string name="my_email">furqan.right.here@gmail.com</string>
+    <string name="my_quote">"Seorang Programmer Jalanan Yang Selalu Merasa Newbie Karena Sering Lupa Cara Meletakkan Object HTML Di Tengah Div Secara Horizontal dan Vertical Pada CSS"</string>
+    <string name="detil">Detail</string>
+    <string name="share">Share</string>
+    <string name="cat_name">Cat Name</string>
+    <string name="cat_detil">Cat Detil</string>
+    <string name="cat_history">Cat History</string>
+</resources>
